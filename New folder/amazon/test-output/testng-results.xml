@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-30T20:13:04Z" name="Default suite" finished-at="2021-04-30T20:13:41Z" duration-ms="37464">
+    <groups>
+    </groups>
+    <test started-at="2021-04-30T20:13:04Z" name="Default test" finished-at="2021-04-30T20:13:41Z" duration-ms="37464">
+      <class name="amazon.generics.BaseClass">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:amazon.generics.BaseClass@4c39bec8]" started-at="2021-04-30T20:13:04Z" name="openBrowser" finished-at="2021-04-30T20:13:13Z" duration-ms="9354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:amazon.generics.BaseClass@4c39bec8]" started-at="2021-04-30T20:13:41Z" name="closeBrowser" finished-at="2021-04-30T20:13:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- amazon.generics.BaseClass -->
+      <class name="amazon.AddProduct">
+        <test-method signature="addProduct()[pri:0, instance:amazon.AddProduct@f79e]" started-at="2021-04-30T20:13:13Z" name="addProduct" finished-at="2021-04-30T20:13:41Z" duration-ms="28093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+      </class> <!-- amazon.AddProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
